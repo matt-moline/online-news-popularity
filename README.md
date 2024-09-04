@@ -13,9 +13,9 @@ In today's digital landscape, understanding what makes an online news article po
 
 By building a predictive model, we aim to provide insights into the attributes that make a news article more likely to be shared, thus helping publishers optimize their content for better reach and engagement.
 
-### **Data Description**
-
-The dataset used in this project, the **Online News Popularity** dataset, consists of 39,644 observations of news articles from various publishers. Each article is characterized by 61 features, including:
+### Data Description
+The dataset used in this project is located in the `data` directory:
+- `data/OnlineNewsPopularity.csv`: The Online News Popularity dataset, which contains 39,644 observations of news articles from various publishers. Each article is characterized by 61 features, including:
 
 -   **Content Attributes**: Word count, title length, presence of specific keywords, etc.
 -   **Metadata**: Day of the week published, category of news (e.g., technology, lifestyle), etc.

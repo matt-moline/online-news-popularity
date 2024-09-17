@@ -48,7 +48,7 @@ The dataset provides a rich source of information to understand and predict arti
 
 ### **Lessons Learned**
 
-    -   **Hyperparameter Tuning Matters**: Tuning hyperparameters using GridSearchCV and RandomizedSearchCV significantly improved the model’s performance.
+    -   Hyperparameter Tuning Matters: Tuning hyperparameters using GridSearchCV and RandomizedSearchCV significantly improved the model’s performance.
         The best combination of hyperparameters for the LightGBM model led to a reduced RMSE and higher R² score, indicating better prediction accuracy and generalization ability.
 
     -   Feature Importance Analysis Provides Insights: By analyzing feature importance using LightGBM’s "gain" metric, we identified key features that contribute the most to the 

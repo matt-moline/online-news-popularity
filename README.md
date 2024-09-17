@@ -86,12 +86,12 @@ The dataset provides a rich source of information to understand and predict arti
 
 ### **Contributors**
 
--   **[Matt Moline]**: Data Scientist, AI/ML Enthusiast
+-   **Matt Moline**: Data Scientist, AI/ML Enthusiast
 
 ### **Acknowledgments**
 
 -   UCI Machine Learning Repository for providing the Online News Popularity dataset.
--   [UC Berkeley Haas Scvhool of Business AI/ML Certificate] for the guidance and resources in completing this capstone project.
+-   UC Berkeley Haas Scvhool of Business AI/ML Certificate for the guidance and resources in completing this capstone project.
 
 ### **License**
 

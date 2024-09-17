@@ -82,7 +82,6 @@ The dataset provides a rich source of information to understand and predict arti
 
 -   **data/**: Directory containing the dataset used in the project.
 
--   **results/**: Directory containing the model outputs, such as prediction results and evaluation metrics.
 
 ### **Contributors**
 

@@ -45,31 +45,20 @@ The dataset provides a rich source of information to understand and predict arti
     -   Mean Squared Error (MSE)
     -   Root Mean Squared Error (RMSE)
     -   R² Score
-
+  
 ### **Lessons Learned**
 
-    -   Hyperparameter Tuning Matters: Tuning hyperparameters using GridSearchCV and RandomizedSearchCV significantly improved the model’s performance.
-        The best combination of hyperparameters for the LightGBM model led to a reduced RMSE and higher R² score, indicating better prediction accuracy and generalization ability.
-
-    -   Feature Importance Analysis Provides Insights: By analyzing feature importance using LightGBM’s "gain" metric, we identified key features that contribute the most to the 
-        model's predictions. This analysis showed that certain content attributes, such as the number of tokens in the title and the sentiment of the title, are critical predictors 
-        of article popularity. Understanding feature importance helped refine the feature set and guided further feature engineering efforts.
-
-    -   Cross-Validation is Essential for Robust Performance: Cross-validation using k-fold (e.g., 5-fold) ensured that the model's performance was stable and generalizable across 
-        different subsets of the data. It provided a more accurate measure of the model’s true error rate and helped prevent overfitting.
-        
-    -   Regularization Helps Prevent Overfitting: Adding regularization (e.g., reg_alpha and reg_lambda for L1 and L2 regularization) helped control overfitting in the LightGBM model, 
-        especially when dealing with a large number of features. This made the model more robust and reliable.
-        
-    -   Monitoring and Iteration Improve Model Performance: After deploying the model, continuous monitoring and periodic retraining with new data will be necessary to maintain and improve
-        the model’s performance. Model evaluation metrics will be tracked to ensure the model remains accurate and relevant over time.
+    -   Hyperparameter Tuning Matters: Tuning hyperparameters using GridSearchCV and RandomizedSearchCV significantly improved the model’s performance.  The best combination of hyperparameters for the LightGBM model led to a reduced RMSE and higher R² score, indicating better prediction accuracy and generalization ability
+    -   Feature Importance Analysis Provides Insights: By analyzing feature importance using LightGBM’s "gain" metric, we identified key features that contribute the most to the model's predictions. This analysis showed that certain content attributes, such as the number of tokens in the title and the sentiment of the title, are critical predictors of article popularity. Understanding feature importance helped refine the feature set and guided further feature engineering efforts.
+    -   Cross-Validation is Essential for Robust Performance: Cross-validation using k-fold (e.g., 5-fold) ensured that the model's performance was stable and generalizable across different subsets of the data. It provided a more accurate measure of the model’s true error rate and helped prevent overfitting.
+    -   Regularization Helps Prevent Overfitting: Adding regularization (e.g., reg_alpha and reg_lambda for L1 and L2 regularization) helped control overfitting in the LightGBM model, especially when dealing with a large number of features. This made the model more robust and reliable.
+    -   Monitoring and Iteration Improve Model Performance: After deploying the model, continuous monitoring and periodic retraining with new data will be necessary to maintain and improve the model’s performance. Model evaluation metrics will be tracked to ensure the model remains accurate and relevant over time.
 
 ### **Key Findings**
 
     -   **Top Predictors of Popularity**: Certain attributes, such as the length of the title, presence of keywords, and publication day, were found to be strong predictors of an article's popularity.
     -   **Model Performance**: The optimized LightGBM model provided the best overall performance, achieving a lower RMSE and higher R² score compared to other models.
-    -   **Insights for Content Creators**: The analysis suggests that content creators should focus on optimizing specific attributes, such as using engaging titles and timing the release 
-    of articles, to maximize social media shares.
+    -   **Insights for Content Creators**: The analysis suggests that content creators should focus on optimizing specific attributes, such as using engaging titles and timing the release of articles, to maximize social media shares.
 
 ### **Recommendations**
 
